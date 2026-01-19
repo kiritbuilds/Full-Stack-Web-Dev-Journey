@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <!--Content goes here-->
+</body>
+
+</html>
+
+<!--Links add 
+                    targer="_blank" new tab me open karne ke liye.
+                    href used links create and direct go with different pages and website
+                    <a> tag link add karne ke liye 
+                    <p> tag Paragraph type new line me jane ke liye"-->
+<p><a target="_blank" href="https://www.google.com">This is a link</a> </p>
+<p><a target="_blank" href="https://www.facebook.com">Open facebook</a> </p>
+<p><a href="mailto:example@example.com">Send Mail</a> </p>
+<p><a href="#section1">Jump to Section 1</a> </p>
+
+<!--Image add karne ke liye
+Alt Alternative text provide karne ke liye jab img load nahi hoti
+src text img ke path ko specify karta hai -->
+
+<img src="image2.jpg" alt="College Time Photo" width="300" height="400">
+
+
+<!-- Table banane ke liye
+Table Tag define karva etle structure describe karva
+<tr> tag row define karva
+<th> tag header cell define karva means ke heading deva.
+<td> tag data cell define karva or data andar lakhva means ke.
+ -->
+<table>
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+    </tr>
+    <tr>
+        <td>Row 1,Cell 1</td>
+        <td>Row 1,Cell 2</td>
+    </tr>
+    <tr>
+        <td>Row 2,Cell 1</td>
+        <td>Row 2,Cell 2</td>
+    </tr>
+</table>
+
+
+<!--Forms Create karva
+ action attributes used in data je specify hoy ene server side per mokalva
+ method attributes html ma form create karva and jenathi form no datasever per jay ena mate http vapray
+ http ma be method aave 
+1.GET method : data ne url na form ma include karine server per mokalva.
+2.POST method : data ne http ni request pachi body ma include karine server per mokalva.
+
+<label> tag html ma elements ne describe karva use thay means ke je form ma box aave eni pela label tag nu name hoy
+
+<input> tag html ma elements create karva use thay. jema users data input kari sake aa tag different types na input field create karva vapray.
+
+Text : < input type = "text"> - Text input field create kare.
+Email : <input type = "email"> - Email input field create karva.
+Password : <input type = "password"> - Password input field create karva.
+Checkbox : <input type = "checkbox"> - Checkbox input field create karva.
+Radio : <input type = "radio" > - Radio button input field create karva.
+Submit : <input type = "submit" > - Submit button create karva.
+-->
+<form action="/submit-form" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <input type="submit" value="submit">
+
+    <!--Taxt Elements  
+<h1>Heading 1</h1> big heading and main for compare other
+<h2>Heading 2</h2> h1 thi niche na level nu
+<h3>Heading 3</h3> h2 thi niche na level nu
+<h4>Heading 4</h4> h3 thi niche na level nu
+<h5>Heading 5</h5> h4 thi niche na level nu
+<h6>Heading 6</h6> small heading for compare other and less important
+コ
+→ Heading Tags
+<p>This is a paragraph tag and simple to understand line.</p>
+<strong>Bold text and important text ne highlight kare.</strong>
+<em>Italic text Emphasixed text ne indicate kare etle ke etalic font banave.</em>
+<small>Small text ne display karva mate.</small>
+<mark>Highlighted text ne indicate karen means ke search karen.</mark>
+<del>Deleted text ne indicate karva means ke search karen.</del>
+<ins>Inserted text  ne indicate karva means ke search karen.</ins>
+<sub>Subscript text means ke H20 Hoy to h20 ma 2 niche aave.</sub>
+<sup>Superscript text means ke 2 and 3 hoy to 2 mi 3 ghat etle ke pow function jevu kam kare 8 value made.</sup>
+@iron.coding -->
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+コ
+→ Heading Tags
+ <p>This is a paragraph.</p>
+<p> <strong>Bold text</strong> </p>
+<p> <em>Italic text</em> </p>
+<p> <small>Small text</small> </p>
+<p> <mark>Highlighted text</mark> </p>
+<p> <del>Deleted text</del> </p>
+<p> <ins>Inserted text</ins> </p>
+<p> <sub>Subscript text</sub> </p>
+<p> <sup>Superscript text</sup> </p>
+@iron.coding
+
+                                        <!--Lists-->
+Un Ordered List <!-- Jyare list ni andar no element important na hoy
+                     Bullet point sathe diplay thay menas goll mindu aagad aave-->
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+Ordered List <!--Jyare list ni andar no element important hoy 
+                number aave element aagad etle orderd list.-->
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+Description List <!-- Jyare koi terms ke description dipalay karvu ho tyare.-->
+<dl> <!--Description list ne define karre.-->
+<dt>Term 1</dt> <!--Term ne define kare-->
+<dd>Description 1</dd> <!-- Term na description ne define karen.-->
+<dt>Term 2</dt>
+<dd>Description 2</dd>
+</dl>
+@iron.coding
+
+                                        <!--Semantic Elements-->
+
+<header>
+<!-- Header  section ne define kare -->
+ <h1> our website </h1>
+ <p> Welcome Our Website </p>
+</header>
+<nav>
+<!-- Navigation section ne define links -->
+ <ul>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+ </ul>
+</nav>
+<main>
+<!-- Main content -->
+ <h1>Welcome to our website</h1>
+ <p>This is a sample website.</p>
+</main>
+
+<article>
+<!--Article content-->
+<h1>out blog post</h1>
+<p>This is sample blog post.</p>
+</article>
+<section>
+<!--Section content-->
+<h1>About us</h1>
+<p>This is paragraph about our company.</p>
+</section>
+<aside>
+<!--Sidebar content-->
+<h1>Related links</h1>
+<ul>
+    <li><a href="#">Link 2</a></li>
+</ul>
+</aside>
+<footer>
+<!--Footer content-->
+<p>&copy; 2023 Our website</p>
+</footer>
+@iron.coding
+
+                                <!--Media Video And Audio-->
+
+<audio src="audio.mp3" controls autoplay></audio>
+<video src="video1.mp4 " controls autoplay width="400" ></video>
+
+                                <!--Inputs-->
+<input type="text" placeholder="Text input">
+<input type="password" placeholder="Password">
+<input type="email" placeholder="Email">
+<input type="number" placeholder="Number">
+<input type="date">
+<input type="checkbox"> Check me
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="file">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+<input type="button" value="Click me">
+
+<!--Block and Inline Elements-->
+Block Elements
+<div>This is a block element.</div>
+<article>This is a block element.</article>
+<section>This is a block element.</section>
+<header>This is a block element.</header>
+<footer>This is a block element.</footer>
+<!--Inline Elements-->
+<p><span>This is an inline element.</p>
+<!--  ek nankada bhag ne highlight kare.   -->
+</span>
+<p><a href="#">This is an inline element.</a></p>
+<p><strong>This is an inline element.</strong></p>
+<p><em>This is an inline element.</em></p>
+@iron.coding
+</form>

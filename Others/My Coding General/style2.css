@@ -1,0 +1,21 @@
+/* 1. Sticky Navbar */
+.sticky-nav{
+    position: sticky;
+    top: 0%;
+    background-color: darkblue;
+    padding: 15px;
+    color: white;
+}
+
+/* 2. Fixed Player */
+.music-player{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    background-color: #b93131;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}

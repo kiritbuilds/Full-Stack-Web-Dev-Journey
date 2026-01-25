@@ -1,0 +1,28 @@
+/* * Is A Universal Selector */
+*{
+    margin: 10px;
+    padding-top: 0%;
+}
+/* body Is A Only Select Element And Styling */
+body{
+    color: tomato;
+    background-color: aqua;
+}
+/* Name is id Selector */
+#name{
+    color: brown;
+    background-color: chartreuse;
+}
+/* .red is a class selector */
+.red{
+    color: bisque;
+}
+/* h1,h2 is a group selector */
+h1,h2{
+color: springgreen;
+}
+/* h1 is a element selector */
+h1{
+    color: blue;
+}
+

@@ -1,0 +1,25 @@
+#bulb {
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    border-radius: 50%; /* Make it round */
+    border: 2px solid #555;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.bulb-off {
+    background-color: #ddd; /* Off color (grey) */
+}
+
+/* The 'glow' class defines the ON state */
+.glow {
+    background-color: yellow;
+    box-shadow: 0 0 20px 10px yellow; /* Glowing effect */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}

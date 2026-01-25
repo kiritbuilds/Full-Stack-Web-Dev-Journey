@@ -1,0 +1,17 @@
+.nav-bar{
+    background-color: darkblue;
+    color: lightcyan;
+}
+.nav-bar ul{
+    list-style: upper-alpha;
+    margin: 20px;
+    padding: 20px;
+}
+.nav-bar li{
+    display: inline-flexbox;
+    margin: auto;
+}
+.nav-bar a{
+    color: chartreuse;
+    text-decoration: underline;
+}

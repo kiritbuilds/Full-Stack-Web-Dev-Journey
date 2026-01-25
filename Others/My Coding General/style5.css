@@ -1,0 +1,40 @@
+Disc ka Design
+.music-disc {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, #333, #000);
+    border-radius: 50%;
+    margin: 50px auto;
+    border: 5px solid #1DB954;
+    
+    /* Animation: Naam | Time | Style | Loop */
+    animation: ghumo 3s linear infinite;
+}
+
+/* Hover karne par ruk jaye */
+.music-disc:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+/* Center Hole */
+.center-hole {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* IMPORTANT: Ye sabse neeche, kisi bracket ke andar nahi hona chahiye */
+@keyframes ghumo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

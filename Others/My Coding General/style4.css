@@ -1,0 +1,24 @@
+.album-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color: #e01f1f;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* # Media Query */
+@media only screen and (max-width: 768px) {
+    .album-grid{
+        grid-template-columns: 1fr;
+    }
+    .card {
+        background-color: darkred; /* Sirf check karne ke liye color badla */
+    }
+}

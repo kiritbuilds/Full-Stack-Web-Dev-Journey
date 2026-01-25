@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    color: rgb(46, 7, 7);
+}
+
+.Containor {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 2px solid black; /* We add a border to see the problem later */
+.main-contant,
+.sidebar,
+.footer {
+    display: flex;
+}
+
+}
+.nav-bar{
+
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.image{
+    text-align: center;
+}
+
+/* .Header {
+    background-color: aqua;
+    
+    padding: 20px;
+    margin-bottom: 5px;
+}  */
+.main-contant{
+    background-color: chartreuse;
+    padding: 20px;
+    margin-bottom: 5px;
+    float: left;
+    width: 35%;
+}
+.sidebar{
+    background-color: chocolate;
+    padding: 20px;
+    margin-bottom: 5px;
+    float: left;
+    width: 30%;
+}
+.footer{
+    padding: 20px;
+    background-color: rgb(29, 201, 121);
+    text-align: center;
+} 

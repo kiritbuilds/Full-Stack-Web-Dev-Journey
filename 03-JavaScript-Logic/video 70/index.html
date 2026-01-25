@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color And Background color for 5 boxes</title>
+    <style>
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.box{
+    width: 34px;
+    height: 34px;
+    border: 2px solid black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="Yello">Box</div>
+        <div class="box" id="Red">Box</div>
+        <div class="box" id="Green">Box</div>
+        <div class="box" id="Pink">Box</div>
+        <div class="box" id="Orange">Box</div>
+    </div>
+</body>
+<script>
+ document.getElementById("Yello").style.backgroundColor ="Red"
+ document.getElementById("Red").style.backgroundColor =  "Yellow"
+ document.getElementById("Green").style.backgroundColor = "Pink"
+ document.getElementById("Pink").style.backgroundColor = "Orange"
+ document.getElementById("Orange").style.backgroundColor = "Green"
+
+</script>
+</html>

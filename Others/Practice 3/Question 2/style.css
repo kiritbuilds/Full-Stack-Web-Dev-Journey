@@ -1,0 +1,38 @@
+body{
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.main-content{
+    display: flex;
+    flex: 1;
+}
+.navbar{
+    background-color: rgb(26, 24, 24);
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid rgb(19, 17, 17);
+    box-sizing: content-box;
+}
+.column{
+    padding: 20px;
+    color: white;
+    flex: 1;
+    height: 50vh;
+}
+.footer{
+    text-transform: uppercase;
+    background-color: brown;
+    color: aqua;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.red-div{
+    background-color: rgb(230, 18, 35);
+}
+.green-div{
+    background-color: rgb(27, 236, 132);
+
+}

@@ -1,0 +1,56 @@
+.content {
+    border: 2px solid black;
+    height: 521px;
+    width: 700px;
+    margin-left: 23%;
+    background-color: brown;
+}
+.nav-bar {
+    border: 1px solid rgb(199, 25, 25);
+    padding: 20px;
+    background-color: red;
+
+}
+.sidebar {
+    border: 1px solid blue;
+    margin: 41px;
+    float: inline-start;
+    padding: 107px;
+    margin-left: 55px;
+    background-color: aqua;
+}
+.checkbar {
+     border: 1px solid blue;
+    margin: 41px;
+    float: inline-end;
+    padding: 107px;
+    margin-right: 55px;
+    background-color: chartreuse;
+}
+.text{
+    font-size: larger;
+    border: 1px solid red;
+    padding: 53px;
+    margin-top: 287px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: pink ;
+}
+.footer{
+    border: 1px solid pink;
+    padding: 30px;
+    text-align: center;
+    margin-top: 3px;
+    background-color: yellow;
+}
+.floating-button{
+   width: 24px;
+   height: 30px;
+   position: relative;
+   left: 646px;
+   bottom: 230px;
+   border-radius: 50%;
+   background-color: red;
+}

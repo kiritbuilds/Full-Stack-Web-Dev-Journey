@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        :root{
+            --color: aqua;
+            --seccolor: red;
+            --defpad: 25px;
+            --defop: 0.5;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .nav{
+            background-color: var(--color);
+            border: 2px solid black;
+        }
+        ul{
+           display: flex;
+        }
+         ul li{
+            opacity: var(--defop);
+            list-style: none;
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+        }
+          ul li:first-child{
+            --color: rgb(101, 24, 224);
+            background-color: var(--color, rgb(225, 240, 23));
+        }
+
+
+        
+    </style>
+</head>
+<body>
+       <div class="nav">
+            <ul>
+                <li>About</li>
+                <li>contact</li>
+                <li>service</li>
+            </ul>
+</body>
+</html>

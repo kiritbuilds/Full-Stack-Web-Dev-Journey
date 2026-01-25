@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: 30px;
+}
+.card{
+            width: 300px;
+            border-radius: 15px;
+            border: 1px solid #eee;
+            overflow: hidden;
+            box-shadow: 0 4px 8px;
+            text-align: center;
+
+}
+.card-content h2,
+.card-content p {
+text-align: left;
+padding: 15px;
+}
+.tag-contenainer{ 
+     
+}
